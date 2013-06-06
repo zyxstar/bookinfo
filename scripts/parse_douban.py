@@ -2,7 +2,7 @@
 import douban.service
 
 def get_book(isbn):
-    client = douban.service.DoubanService(api_key = "07385bc1741d18c615a913445c574a52", secret = "")
+    client = douban.service.DoubanService(api_key = "XXXX", secret = "")
     desc = dict(
             isbn13 = "",
             title = "",
